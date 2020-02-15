@@ -1,0 +1,45 @@
+/* Styles.CSS */
+
+
+html, body {
+    height: 100%;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: -20px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: lightgrey;
+  color: forestgreen;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: black;
+}
+
+
+/* Media Queries */
+@media(max-width: 850px){
+      
+    #myBtn {
+        display: none;
+    }
+    
+}
+
+/* Mobile */
+@media(max-width: 640px){
+    
+    
+    #myBtn {
+        display: none;
+    }
+    
+
+    
+}
